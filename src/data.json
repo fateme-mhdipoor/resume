@@ -1,0 +1,56 @@
+{
+  "title": "hello I'am fateme :)",
+  "subtitle": "FrontEnd Dev | Open-Source Enthusiast",
+  "links": {
+    "twitter": "https://www.twitter.com/",
+    "facebook": "https://www.facebook.com/id=100069477654758",
+    "instgram": "https://instagram.com/fateme.mhdipoor"
+  },
+  "sections": [
+    {
+      "title": "About",
+      "items": [
+        {
+          "type": "p",
+          "content": "hello joOjoO"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "pic/react.png",
+            "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "pic/js.png",
+            "title": "JavaScript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "pic/html.png",
+            "title": "HTML"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "pic/css.png",
+            "title": "CSS"
+          }
+        }
+      ]
+    }
+  ],
+  "icons": {
+    "down": "pic/right-arrow.png"
+  }
+}

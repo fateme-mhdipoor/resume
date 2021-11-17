@@ -5,11 +5,13 @@ import DownIcon from "../Component/downicon";
 import { Link, Button, Element } from "react-scroll";
 import TitleMenuAbout from "../Component/titlemenuabout";
 import TitleMenuSkill from "../Component/titlemenuskill";
+import SnowStorm from "react-snowstorm";
 
 class AboutSection extends Component {
   render() {
     return (
       <div>
+        <SnowStorm />
         <Link
           activeClass="active"
           to="test1"

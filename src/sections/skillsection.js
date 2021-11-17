@@ -6,11 +6,13 @@ import "../Component/skillcard.css";
 import { Link, Button, Element } from "react-scroll";
 import TitleMenuAbout from "../Component/titlemenuabout";
 import TitleMenuSkill from "../Component/titlemenuskill";
+import SnowStorm from "react-snowstorm";
 
 class SkillSection extends Component {
   render() {
     return (
       <div>
+        <SnowStorm />
       <Fullpage className="c">
         <h2> {data.sections[1].title}</h2>
         <div className="card-wrapper">

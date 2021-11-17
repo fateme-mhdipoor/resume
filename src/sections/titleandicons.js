@@ -6,6 +6,7 @@ import DownIcon from "../Component/downicon";
 import TitleMenuAbout from "../Component/titlemenuabout";
 import TitleMenuSkill from "../Component/titlemenuskill";
 import { Link, Button, Element } from "react-scroll";
+import SnowStorm from "react-snowstorm";
 
 class TitleAndIcons extends Component {
   state = {
@@ -19,6 +20,7 @@ class TitleAndIcons extends Component {
   render() {
     return (
       <div>
+        <SnowStorm />
           <Link
           activeClass="active"
           to="test1"

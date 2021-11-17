@@ -10,7 +10,8 @@ const TitleMenuSkill = (props) => {
         justifyContent: "right",
         marginRight: "145px",
         marginBottom: "-34px",
-        transform: "translateY(22px)"
+        transform: "translateY(22px)",
+        cursor: "pointer",
         
       }}
       >

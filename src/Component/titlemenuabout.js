@@ -10,7 +10,8 @@ const TitleMenuAbout = (props) => {
         justifyContent: "right",
         marginRight: "65px",
         marginBottom: "-34px",
-        transform: "translateY(20px)"
+        transform: "translateY(20px)",
+        cursor: "pointer",
       }}
       >
         <div
